@@ -31,6 +31,10 @@ Route::get('/abaSonic',[UsuarioController::class,'showabasonic'])->name('todos-u
 Route::get('/abaMario',[UsuarioController::class,'showabamario'])->name('todos-usuario');
 Route::get('/abaDonnie',[UsuarioController::class,'showabadonnie'])->name('todos-usuario');
 Route::get('/abaTekkenM',[UsuarioController::class,'showabatekkenm'])->name('todos-usuario');
+Route::get('/abaCb3',[UsuarioController::class,'showabacb3'])->name('todos-usuario');
+Route::get('/abaTn2',[UsuarioController::class,'showabatn2'])->name('todos-usuario');
+Route::get('/abaGt',[UsuarioController::class,'showabagt'])->name('todos-usuario');
+Route::get('/abaFf7',[UsuarioController::class,'showabaff7'])->name('todos-usuario');
 
 Route::put('/alterarBanco/{id}',[UsuarioController::class,'update'])->name('alterarBanco-usuario');
 

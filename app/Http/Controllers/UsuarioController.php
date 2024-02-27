@@ -131,6 +131,22 @@ class UsuarioController extends Controller
             return view('abaSpider');
         }
 
+        public function showabacb3(){
+            return view('abaCb3');
+        }
+
+        public function showabaff7(){
+            return view('abaFf7');
+        }
+
+        public function showabagt(){
+            return view('abaGt');
+        }
+
+        public function showabatn2(){
+            return view('abaTn2');
+        }
+
 
     
     public function authenticate(Request $request): RedirectResponse

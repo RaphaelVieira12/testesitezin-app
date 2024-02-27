@@ -397,6 +397,108 @@
                     </div> 
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <img src="assets/images/ff7.webp" alt="">
+                        <div class="hover-effect">
+                          <div class="content">
+                            <div class="live">
+                              <a href="/abaFf7" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <ul>
+                              <li><a href="#"><i class="fa fa-eye"></i> 1.4k</a></li>
+                              <li><a href="#"><i class="fa fa-gamepad"></i> FF7</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="down-content">
+                        <div class="avatar">
+                          <img src="assets/images/ff7.webp" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                        </div>
+                        <span><i class="fa fa-check"></i> Square</span>
+                        <h4>Final Fantasy 7</h4>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <img src="assets/images/gran.jfif" alt="">
+                        <div class="hover-effect">
+                          <div class="content">
+                            <div class="live">
+                              <a href="/abaGt" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <ul>
+                              <li><a href="#"><i class="fa fa-eye"></i> 7K</a></li>
+                              <li><a href="#"><i class="fa fa-gamepad"></i> GT1</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="down-content">
+                        <div class="avatar">
+                          <img src="assets/images/gran.jfif" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                        </div>
+                        <span><i class="fa fa-check"></i> Sony</span>
+                        <h4>Gran Turismo</h4>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <img src="assets/images/cs3.webp" alt="">
+                        <div class="hover-effect">
+                          <div class="content">
+                            <div class="live">
+                              <a href="/abaCb3" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <ul>
+                              <li><a href="#"><i class="fa fa-eye"></i> 4.1K</a></li>
+                              <li><a href="#"><i class="fa fa-gamepad"></i> CB3</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="down-content">
+                        <div class="avatar">
+                          <img src="assets/images/cs3.webp" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                        </div>
+                        <span><i class="fa fa-check"></i> Naugthy Dog</span>
+                        <h4>Crash Bandicoot 3</h4>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <img src="assets/images/tn3.jpg" alt="">
+                        <div class="hover-effect">
+                          <div class="content">
+                            <div class="live">
+                              <a href="/abaTn2" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <ul>
+                              <li><a href="#"><i class="fa fa-eye"></i> 259</a></li>
+                              <li><a href="#"><i class="fa fa-gamepad"></i> TH2</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="down-content">
+                        <div class="avatar">
+                          <img src="assets/images/tn3.jpg" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                        </div>
+                        <span><i class="fa fa-check"></i> Activision</span>
+                        <h4>Tony Hawk 2</h4>
+                      </div> 
+                    </div>
+                  </div>
+                
               <div class="col-lg-12">
               </div>
             </div>

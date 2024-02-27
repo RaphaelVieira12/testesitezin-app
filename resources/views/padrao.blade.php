@@ -9,6 +9,7 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <audio src=""></audio>
+    <link rel="shortcut icon" type="assets/images/logo.png" href="/favicon.jpg"/>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
