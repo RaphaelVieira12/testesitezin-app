@@ -4,69 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/css.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  
-    <title>Hospital Brasil</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <audio src=""></audio>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <title>SRFV Games</title>
 </head>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
-  <div class="container-xl">
-    <a class="navbar-brand" href="#">
-      <img src="../images/hospitalLogo.png" width="30" height="30" class="d-inline-block align-text-top">
-    </a>
-    <a class="navbar-brand" href="#">Hospital Brasil</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExample07XL">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/cadastrar">Register</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/todosContato">Search</a>
-        </li>
-      </ul>
-      <form role="search">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-      </form>
-      <a class="navbar-brand" href="#">
-        <img src="../images/lupa.png" width="30" height="30" class="d-inline-block align-text-top">
-      </a>
+<body>
+    
+     <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <link rel="shortcut icon" type="imagex/png" href="assets/images/bungas.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="/" class="logo">
+                        <img src="assets/images/logoz1.png" width="70px" height="58px">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Search End ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Pesquise Aqui" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div>
+                    <!-- ***** Search End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="/" class="active">Home</a></li>
+                        <li><a href="/games1">Games</a></li>
+                        <li><a href="/movies1">Movies</a></li>
+                        <li><a href="/art1">Art</a></li>
+                        <li><a href="/signup">Cadastrar</a></li>
+                        <li><a href="{{route('login')}}">Login <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
-
-<div class="card">
-  <div class="card-footer">
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+      @yield('content')
+    </div>
 </div>
-
-
-
-<!-- fim Navbar -->
-
-@yield('content')
-
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../images/local.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-      Rua Votuporanga, 111, Vila Dora - Santo André - SP - CEP 09030-590 - (11) 2127-6666
-      <a href='https://www.instagram.com'><img src="../images/instagram.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> Instagram</a>
-      <a href='https://twitter.com/i/flow/login'><img src="../images/twitter.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">  Twitter</a>
-      <a href='https://www.facebook.com/'><img src="../images/facebook.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> Facebook</a>
-    </a>
     
   </div>
 </nav>
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2025 <a href="#">SRFV Games</a> Company. All rights reserved. 
+          
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">SRFV Company</a>  Distributed By <a href="https://themewagon.com" target="_blank" >Caytiru</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
 </body>
 </html>
 
